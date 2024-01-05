@@ -1,0 +1,138 @@
+@media only screen and (max-width: 1071px) {
+    .icon {
+    margin: 2.7px !important;
+        font-size: 29px !important;
+    }
+}
+
+@media only screen and (max-width: 931px) {
+    .icon {
+    margin: 2.5px !important;
+        font-size: 27px !important;
+    }
+}
+
+@media only screen and (max-width: 801px) {
+    .icon {
+    margin: 2.4px !important;
+        font-size: 25px !important;
+    }
+
+    
+.emoji-container {
+    left: 49px !important;
+}
+}
+
+@media only screen and (max-width: 717px) {
+    .icon {
+    margin: 2.2px !important;
+        font-size: 23px !important;
+    }
+    .emoji-container {
+        left: 45px !important;
+    }
+}
+
+@media only screen and (max-width: 669px) {
+    .icon {
+    margin: 2px !important;
+        font-size: 21px !important;
+    }
+    .emoji-container {
+        left: 41px !important;
+    }
+}
+
+@media only screen and (max-width: 619px) {
+    .icon {
+    margin: 1.8px !important;
+        font-size: 19px !important;
+    }
+    .emoji-container {
+        left: 39px !important;
+    }
+}
+
+@media only screen and (max-width: 565px) {
+    .icon {
+    margin: 1.5px !important;
+        font-size: 17px !important;
+    }
+    .emoji-container {
+        left: 37px !important;
+    }
+}
+
+@media only screen and (max-width: 499px) {
+    .icon {
+    margin: 1.3px !important;
+        font-size: 15px !important;
+    }
+    .emoji-container {
+        left: 35px !important;
+    }
+}
+
+@media only screen and (max-width: 429px) {
+    .icon {
+    margin: 1.1px !important;
+        font-size: 13px !important;
+    }
+    .emoji-container {
+        left: 32px !important;
+    }
+}
+
+@media only screen and (max-width: 381px) {
+    .icon {
+    margin: 0.9px !important;
+        font-size: 11px !important;
+    }
+    .emoji-container {
+        left: 29px !important;
+    }
+}
+
+.emoji-container {
+    box-shadow: 1px 1px 3px gray;
+    background-color: white;
+    position: absolute;
+    left: 59px;
+    bottom: 3px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.heart-icon {
+    color: #df0c0c;
+}
+
+.thumbsUp-icon {
+    color: #ffe018;
+}
+
+.laugh-icon {
+    color: #d3d624;
+}
+
+.sad-icon {
+    color: rgb(245, 230, 28);
+}
+
+.angry-icon {
+    color: #ffea00;
+}
+
+.icon {
+    margin: 3px;
+    font-size: 35px;
+    flex-grow: 1;
+    padding: 3px;
+}
+
+.icon:hover {
+    transition: 400ms;
+        font-size: 41px !important;
+}

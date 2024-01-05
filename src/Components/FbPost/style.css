@@ -1,0 +1,285 @@
+@media only screen and (max-width: 781px) {
+
+  .like-img,
+  .comment-img,
+  .share-img {
+    font-size: 23px !important;
+    margin-right: 9.5px;
+  }
+
+  .txt {
+    margin-top: 3px;
+    font-size: 15px !important;
+  }
+
+  .liked-img {
+    font-size: 25px !important;
+  }
+
+  .user-comment-txt{
+    width: 28vw !important;
+  }
+
+}
+
+@media only screen and (max-width: 701px) {
+
+  .like-img,
+  .comment-img,
+  .share-img {
+    font-size: 21px !important;
+    margin-right: 9px;
+  }
+
+  .user-comment-txt{
+    width: 26vw !important;
+  }
+
+  .txt {
+    margin-top: 3px;
+    font-size: 13px !important;
+  }
+
+  .liked-img {
+    font-size: 23px !important;
+  }
+}
+
+@media only screen and (max-width: 601px) {
+
+  .like-img,
+  .comment-img,
+  .share-img {
+    font-size: 17px !important;
+    margin-right: 9px;
+  }
+
+  .user-comment-txt{
+    width: 24vw !important;
+  }
+
+  .txt {
+    margin-top: 3px;
+    font-size: 11px !important;
+  }
+
+  .liked-img {
+    font-size: 19px !important;
+  }
+}
+
+@media only screen and (max-width: 501px) {
+
+  .like-img,
+  .comment-img,
+  .share-img {
+    font-size: 14px !important;
+    margin-right: 7px;
+  }
+
+  .user-comment-txt{
+    width: 22vw !important;
+  }
+
+  .txt {
+    margin-top: 3px;
+    font-size: 9px !important;
+  }
+
+  .liked-img {
+    font-size: 16px !important;
+  }
+}
+
+@media only screen and (max-width: 471px) {
+
+  .like-img,
+  .comment-img,
+  .share-img {
+    font-size: 12px !important;
+    margin-right: 6px;
+  }
+
+  .txt {
+    margin-top: 3px;
+    font-size: 7px !important;
+  }
+
+  .user-comment-txt{
+    width: 20vw !important;
+  }
+
+  .liked-img {
+    font-size: 14px !important;
+  }
+}
+
+@media only screen and (max-width: 399px) {
+
+  .like-img,
+  .comment-img,
+  .share-img {
+    font-size: 10.5px !important;
+    margin-right: 5px;
+  }
+
+  .txt {
+    margin-top: 3px;
+    font-size: 6px !important;
+  }
+
+  .user-comment-txt{
+    width: 19vw !important;
+  }
+
+  .liked-img {
+    font-size: 12.4px !important;
+  }
+}
+
+.container{
+  background-color: rgb(244, 243, 243);
+}
+
+.post-container {
+  box-shadow: 0px 1px 3px rgb(114, 114, 114);
+  background-color: white;
+  width: 39vw;
+  height: auto;
+  margin: 15px auto;
+  border-radius: 12px;
+  padding: 3px;
+}
+
+.img-name-container {
+  display: flex;
+}
+
+.logo-img {
+  height: 49px;
+  width: 49px;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.user-name {
+  margin-top: 13px;
+  font-weight: 500;
+  font-size: 21px;
+}
+
+.grid-img-container {
+  position: relative;
+  width: 99%;
+  margin: 0 3px;
+}
+
+.desc-txt {
+  display: block;
+  width: 99%;
+  margin: 3px;
+  overflow-wrap: break-word;
+}
+
+#loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loader {
+  width: 191px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background:
+    radial-gradient(farthest-side, rgb(55, 25, 207) 94%, #0000) top/8px 8px no-repeat,
+    conic-gradient(#0000 30%, rgb(55, 25, 207));
+  -webkit-mask: radial-gradient(farthest-side, #0000 calc(100% - 23px), #000 0);
+  animation: l13 1s infinite linear;
+}
+
+@keyframes l13 {
+  100% {
+    transform: rotate(1turn)
+  }
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-top: 0.3px solid rgb(193, 193, 193);
+  padding-top: 3px;
+}
+
+.like-icon,
+.share-icon,
+.comment-icon {
+  flex-grow: 1;
+  padding: 5px 0px;
+  border-radius: 7.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.like-icon:hover,
+.share-icon:hover,
+.comment-icon:hover {
+  transition: 900ms;
+  background-color: rgb(217, 211, 211);
+}
+
+.like-img,
+.comment-img,
+.share-img {
+  transition: 800ms;
+  font-size: 25px;
+  margin-right: 13px;
+}
+
+.txt {
+  margin-top: 3px;
+  font-size: 21px;
+}
+
+.liked-img {
+  transition: 800ms;
+  font-size: 31px;
+  margin-right: 11px;
+  color: blue;
+}
+
+.like-beside-icon {
+  transition: 800ms;
+  font-size: 31px;
+  margin-right: 13px;
+}
+
+.txt-input-container{
+  display: flex;
+  align-items: center;
+}
+
+.comment-user-img{
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+}
+
+.user-comment-txt{
+  width: 30.5vw;
+  padding: 6.5px 3px;
+border-radius: 19px;
+border: none;
+font-size: 19px;
+margin: 3px;
+outline: none;
+background-color: rgb(242, 241, 241);
+}
+
+.comment-btn{
+  font-size: 29px;
+  margin: 0px 11px;
+}
