@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import FbPost from './Components/FbPost/index'
-s
+import FbPost from './Components/FbPost/index';
+
 function App() {
   const [postObj, setPostObj] = useState([]);
 
@@ -32,6 +32,6 @@ function App() {
     </div>
   );
 
-}
+};
 
 export default App;
